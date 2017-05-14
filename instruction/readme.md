@@ -1,1 +1,1 @@
-This directory store the instruction of configuration.
+This directory stores the instruction of configuration.
