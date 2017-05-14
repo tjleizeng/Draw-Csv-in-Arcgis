@@ -17,7 +17,7 @@ def csv2line():
 
         outPath, outFC = os.path.split(outFeature)
         
-        #change C:\Users\leizengxiang\Desktop\drawCsvInArcgis to your directory, and change the wgs84.prj to your project information file
+        #change C:\Users\leizengxiang\Desktop\drawCsvInArcgis to your directory, and change the wgs84.prj to your projection file
         arcpy.CreateFeatureclass_management(outPath, outFC, "POLYLINE", "", "DISABLED", "ENABLED",
             "C:\Users\leizengxiang\Desktop\drawCsvInArcgis\\wgs84.prj")
 
