@@ -1,1 +1,1 @@
-This directory contains sampleData file for test.
+This directory contains sampleData files for test.
